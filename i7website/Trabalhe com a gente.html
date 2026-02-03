@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe Conosco - i7 Telecom</title>
+      <!-- Favicon para todos os navegadores e dispositivos -->
+    <link rel="icon" type="image/webp" href="images/favicon.webp">
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="images/favicon.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="quem-somos-page">
+    <div class="bg-overlay"></div>
+    <div class="futuristic-bg">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <header>
+        <nav class="nav-container">
+            <div class="logo-container">
+                <img src="images/logo cinza.webp" alt="I7 Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#planos">Planos</a></li>
+                <li><a href="https://sac.i7.tec.br/" target="_blank">2ª Via do Boleto</a></li>
+                <li><a href="index.html#secao-onde-estamos">Onde estamos</a></li>
+                <li><a href="index.html#secao-faq">Perguntas Frequentes</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+            <button class="close-menu">✕</button>
+        </nav>
+    </header>
+
+    <section class="quem-somos-content-section">
+        <div class="quem-somos-content-container">
+            <div class="quem-somos-text-content">
+                <span class="titulo-principal">Trabalhe conosco</span>
+                <span class="quebra-linha"><br></span>
+                <span class="texto-normal">
+                    Na i7 Telecom, acreditamos que pessoas motivadas e talentosas são a chave<br>
+                    para entregar soluções de telecomunicações de alta qualidade para nossos<br>
+                    clientes. Estamos sempre em busca de profissionais que queiram crescer,<br>
+                    inovar e fazer parte de um time dinâmico, colaborativo e comprometido<br>
+                    com resultados.<br><br>
+                    Se você é apaixonado por tecnologia, gosta de desafios e quer construir uma<br>
+                    carreira em uma empresa que valoriza aprendizado contínuo e desenvolvimento<br>
+                    pessoal, queremos conhecer você!<br><br>
+                </span>
+                <span class="subtitulo-negrito">Por que trabalhar na i7 Telecom?<br></span>
+                <span class="texto-normal">
+                    Ambiente de trabalho inovador e colaborativo;<br>
+                    Oportunidades de crescimento e desenvolvimento profissional;<br>
+                    Cultura transparente e valorização de cada colaborador;<br>
+                    Bonificação por metas;<br>
+                    Assistência médica;<br>
+                    Planos de internet;<br>
+                    Salário compatível CLT<br><br>
+                </span>
+                <span class="subtitulo-negrito">Como se candidatar:<br></span>
+                <span class="texto-normal">
+                    Envie seu currículo e uma breve apresentação para<br>
+                    nosso e-mail de RH: rh@i7.tec.br<br><br>
+                    Estamos sempre atentos a novos talentos, e sua candidatura será<br>
+                    cuidadosamente analisada.<br><br>
+                    Junte-se a nós e faça parte da revolução da conectividade!
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section" id="secao-rodape">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-titulo">Para Você</div>
+                <div class="footer-links">
+                    <a href="index.html#planos" class="footer-link">Planos</a>
+                    <a href="https://www.speedtest.net/pt" target="_blank" class="footer-link">Teste de Velocidade</a>
+                    <a href="index.html#secao-onde-estamos" class="footer-link">Mapa de Cobertura</a>
+                    <a href="https://drive.google.com/file/d/15NVZb5ToBHpeuYM_44lVNBATVW-uqVXv/view" target="_blank" class="footer-link">Contrato de SCM</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <div class="footer-titulo">Atendimento</div>
+                <div class="footer-links">
+                    <a href="https://sac.i7.tec.br" target="_blank" class="footer-link">2ª via de Pagamento</a>
+                    <a href="index.html#secao-faq" class="footer-link">Perguntas Frequentes</a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <div class="footer-titulo">Sobre a i7</div>
+                <div class="footer-links">
+                    <a href="Quem Somos.html" class="footer-link">Quem Somos</a>
+                    <a href="Trabalhe com a gente.html" class="footer-link">Trabalhe com a Gente</a>
+                    <a href="#" class="footer-link">Política de Privacidade</a>
+                    <a href="https://g.page/r/CeKNK22WtZXaEAE/review" class="footer-link">Pesquisa de Satisfação</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5508006777007" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('.nav-menu a[href^="index.html#"]');
+        links.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                const sectionId = href.split('#')[1];
+                window.location.href = 'index.html#' + sectionId;
+            });
+        });
+    });
+    </script>
+    
+    <script>
+        function fixSafariBackground() {
+            const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            if (isSafari) {
+                setTimeout(function() {
+                    document.body.style.height = 'auto';
+                    document.body.style.minHeight = '100vh';
+                    document.documentElement.style.height = 'auto';
+                    document.documentElement.style.minHeight = '100vh';
+                    window.dispatchEvent(new Event('resize'));
+                }, 100);
+                setInterval(function() {
+                    document.body.style.backgroundImage = 'linear-gradient(135deg, #03004F, #002CBF)';
+                    document.querySelector('.bg-overlay').style.backgroundImage = 'linear-gradient(135deg, #03004F, #002CBF)';
+                }, 1000);
+            }
+        }
+        window.addEventListener('load', function() {
+            fixSafariBackground();
+        });
+    </script>
+
+    <script>
+    if (window.innerWidth <= 768) {
+        document.querySelectorAll('a[href^="index.html#"]').forEach(link => {
+            link.onclick = function(e) {
+                e.preventDefault();
+                const url = this.getAttribute('href');
+                window.location.assign(url);
+            };
+        });
+    }
+    </script>
+</body>
+</html>

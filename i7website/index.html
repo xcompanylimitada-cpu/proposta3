@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I7 Telecom</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11058098042">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11058098042');
+</script>
+    <!-- Favicon para todos os navegadores e dispositivos -->
+    <link rel="icon" type="image/webp" href="images/favicon.webp">
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="images/favicon.webp">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Overlay de fundo para garantir compatibilidade com Safari -->
+    <div class="bg-overlay"></div>
+
+    <!-- Background futurista -->
+    <div class="futuristic-bg">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo-container">
+                <img src="images/logo.webp" alt="I7 Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="https://sac.i7.tec.br/" target="_blank">2ª Via do Boleto</a></li>
+                <li><a href="#secao-onde-estamos">Onde estamos</a></li>
+                <li><a href= "#secao-faq">Perguntas Frequentes</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+            <button class="close-menu">✕</button>
+        </nav>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+     <div class="swiper-slide slide5-desktop">
+    <div class="banner-wrapper">
+        <img src="images/bannerb.png" class="img-banner-bg" alt="Banner i7">
+    </div>
+
+    <div class="content-overlay">
+        <div class="group-mega">
+            <h2 class="fiel-700">700</h2>
+            <h3 class="fiel-mega">MEGA</h3>
+        </div>
+
+        <div class="group-streaming">
+            <img src="images/amazon ou HBO.png" class="img-streaming" alt="Logos">
+        </div>
+
+        <div class="group-price">
+            <p class="price-label">POR APENAS</p>
+            <div class="price-main">
+                <div class="price-prefix">
+                    <span class="p-por">Por</span>
+                    <span class="p-rs">R$</span>
+                </div>
+                <span class="p-value">99</span>
+                <div class="price-suffix">
+                    <span class="p-cents">,90</span>
+                    <span class="p-mes">/mês</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <!-- Slide 1 -->
+                <div class="swiper-slide slide1">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h2>Planos de internet<br>com os melhores<br><span class="gradient-text">Streamings</span></h2>
+                            <p>Escolha o plano ideal para você e sua família.</p>
+                        </div>
+                        <img src="images/BANNER 1.webp" alt="Banner 1">
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide slide2">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <p class="hashtag-text">
+                                <span class="hash">#</span><span class="quem">QUEM</span><span class="indicaamigo">INDICAAMIGO</span><span class="e">É</span>
+                            </p>
+
+                            <h2 class="white-text">QUEM INDICA</h2>
+                            <svg class="amigo-svg" width="100%" height="120" viewBox="0 0 500 120">
+                                <text class="amigo-text" x="0" y="90">AMIGO É</text>
+                            </svg>
+                            <p>indicando um amigo, vocês<br>GANHAM 50% de desconto<br>na mensalidade.</p>
+                        </div>
+                        <img src="images/BANNER 2.webp" alt="Banner 2">
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide slide3">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h2>Instalação<br><span class="gradient-text">Grátis</span></h2>
+                        </div>
+                        <img src="images/BANNER 3.webp" alt="Banner 3">
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide slide4">
+                    <div class="slide-content">
+                        <div class="slide-text">
+                            <h2><span class="gradient-text">Sem</span><br>Fidelidade</h2>
+                        </div>
+                        <img src="images/BANNER 4.webp" alt="Banner 4">
+                    </div>
+                </div>
+                
+
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </section>
+<!-- ============================ -->
+<!-- SEÇÃO DE PLANOS - COMPLETA -->
+<!-- ============================ -->
+<section class="plans-section-figma" id="planos">
+    <div class="plans-container-figma">
+        <div class="plans-title-figma">
+            <div class="plans-title-text-figma">
+                Levamos você além da conexão: A melhor internet do Brasil, com velocidade, estabilidade e confiança.
+            </div>
+        </div>
+
+        <div class="plans-grid-figma">
+            <!-- PLANO 500 MEGA -->
+            <div class="plan-card-figma">
+                <div class="plan-bg-figma"></div>
+                <div style="left: 70px; top: 30px; position: absolute; color: white; font-size: 110px; font-family: Montserrat, sans-serif; font-weight: 900; letter-spacing: 2.2px;">500</div>
+                <div style="left: 100px; top: 140px; position: absolute; color: white; font-size: 45px; font-family: Montserrat, sans-serif; font-weight: 400; letter-spacing: 0.9px;">MEGA</div>
+                <div style="left: 70px; top: 230px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 240px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Sem fidelidade</div>
+                <div style="left: 70px; top: 280px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 290px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Wi-Fi Premium</div>
+                <div style="left: 70px; top: 330px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 340px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Instalação grátis</div>
+                
+                <a href="https://wa.me/5508006777007" style="text-decoration: none;">
+                    <div style="width: 200px; height: 45px; left: 65px; top: 420px; position: absolute; background: linear-gradient(90deg, #F5BA2A 0%, #D4701E 100%); border-radius: 23px;"></div>
+                    <div style="left: 80px; top: 433px; position: absolute; color: white; font-size: 16px; font-family: Arial, sans-serif; font-weight: 500;">QUERO ESSE PLANO</div>
+                </a>
+                
+                <div style="left: 130px; top: 490px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">Assine já!</div>
+                <div style="left: 125px; top: 510px; position: absolute; color: white; font-size: 35px; font-family: Montserrat, sans-serif; font-weight: 800;">79</div>
+                <div style="left: 165px; top: 522px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">,90</div>
+                <div style="left: 165px; top: 540px; position: absolute; color: white; font-size: 9px; font-family: Montserrat, sans-serif; font-weight: 400;">Por mês</div>
+            </div>
+
+            <!-- PLANO 700 MEGA -->
+            <div class="plan-card-figma">
+                <div class="plan-bg-figma"></div>
+                <div style="left: 70px; top: 30px; position: absolute; color: white; font-size: 110px; font-family: Montserrat, sans-serif; font-weight: 900; letter-spacing: 2.2px;">700</div>
+                <div style="left: 100px; top: 140px; position: absolute; color: white; font-size: 45px; font-family: Montserrat, sans-serif; font-weight: 400; letter-spacing: 0.9px;">MEGA</div>
+                <div style="left: 70px; top: 230px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 240px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Sem fidelidade</div>
+                <div style="left: 70px; top: 280px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 290px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Wi-Fi Premium</div>
+                <div style="left: 70px; top: 330px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 340px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Instalação grátis</div>
+                
+                <a href="https://wa.me/5508006777007" style="text-decoration: none;">
+                    <div style="width: 200px; height: 45px; left: 65px; top: 420px; position: absolute; background: linear-gradient(90deg, #F5BA2A 0%, #D4701E 100%); border-radius: 23px;"></div>
+                    <div style="left: 80px; top: 433px; position: absolute; color: white; font-size: 16px; font-family: Arial, sans-serif; font-weight: 500;">QUERO ESSE PLANO</div>
+                </a>
+                
+                <div style="left: 130px; top: 490px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">Assine já!</div>
+                <div style="left: 125px; top: 510px; position: absolute; color: white; font-size: 35px; font-family: Montserrat, sans-serif; font-weight: 800;">99</div>
+                <div style="left: 165px; top: 522px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">,90</div>
+                <div style="left: 165px; top: 540px; position: absolute; color: white; font-size: 9px; font-family: Montserrat, sans-serif; font-weight: 400;">Por mês</div>
+            </div>
+
+            <!-- PLANO 1 GIGA -->
+            <div class="plan-card-figma">
+                <div class="plan-bg-figma"></div>
+                <div style="left: 50px; top: 50px; position: absolute; color: white; font-size: 65px; font-family: Montserrat, sans-serif; font-weight: 900; letter-spacing: 1.3px;">1 GIGA</div>
+                <div style="left: 70px; top: 160px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 170px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Sem fidelidade</div>
+                <div style="left: 70px; top: 210px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 220px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Wi-Fi Premium</div>
+                <div style="left: 70px; top: 260px; position: absolute; color: #F5BA2A; font-size: 35px; font-family: Arial, sans-serif; font-weight: 400;">+</div>
+                <div style="left: 100px; top: 270px; position: absolute; color: white; font-size: 18px; font-family: Montserrat, sans-serif; font-weight: 400;">Instalação grátis</div>
+                
+                <a href="https://wa.me/5508006777007" style="text-decoration: none;">
+                    <div style="width: 200px; height: 45px; left: 65px; top: 350px; position: absolute; background: linear-gradient(90deg, #F5BA2A 0%, #D4701E 100%); border-radius: 23px;"></div>
+                    <div style="left: 80px; top: 363px; position: absolute; color: white; font-size: 16px; font-family: Arial, sans-serif; font-weight: 500;">QUERO ESSE PLANO</div>
+                </a>
+                
+                <div style="left: 130px; top: 420px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">Assine já!</div>
+                <div style="left: 115px; top: 440px; position: absolute; color: white; font-size: 35px; font-family: Montserrat, sans-serif; font-weight: 800;">129</div>
+                <div style="left: 173px; top: 452px; position: absolute; color: white; font-size: 14px; font-family: Montserrat, sans-serif; font-weight: 400;">,90</div>
+                <div style="left: 173px; top: 470px; position: absolute; color: white; font-size: 9px; font-family: Montserrat, sans-serif; font-weight: 400;">Por mês</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ -->
+<!-- SEÇÃO APPS -->
+<!-- ============================ -->
+<section class="apps-section">
+    <div class="apps-container">
+        <div class="apps-title">
+            <div class="apps-title-text">
+                Adicione ao<br>seu combo:
+            </div>
+        </div>
+        <div class="apps-image">
+            <img src="images/APPS 1.webp" alt="Apps disponíveis">
+        </div>
+    </div>
+</section>
+
+<!-- ============================ -->
+<!-- SEÇÃO TESTE DE VELOCIDADE - COMPLETO -->
+<!-- ============================ -->
+<section class="speedtest-section">
+    <div class="speedtest-container">
+      
+        <!-- LADO ESQUERDO - TEXTO EXATO -->
+        <div class="speedtest-left">
+            <!-- TÍTULO - 1 LINHA -->
+            <div class="title-big">
+                Teste de velocidade da sua internet
+            </div>
+
+            <!-- SUBTÍTULO - 2 LINHAS EXATAS -->
+            <div class="subtitle-container">
+                <div class="title-mid bold">Verifique gratuitamente a velocidade</div>
+                <div class="title-mid">de download e upload da sua conexão.</div>
+            </div>
+
+            <!-- TEXTOS COM QUEBRAS EXATAS -->
+            <div class="instructions-list">
+                <!-- TEXTO 1 - 3 LINHAS -->
+                <div class="instruction-item">
+                    <img src="images/checklist 1.svg" alt="✓" class="checklist-icon">
+                    <span>É importante não utilizar a internet em<br>outros dispositivos enquanto realiza o<br>teste.</span>
+                </div>
+                
+                <!-- SALTA LINHA -->
+                <br>
+                
+                <!-- TEXTO 2 - 2 LINHAS -->
+                <div class="instruction-item">
+                    <img src="images/checklist 2.svg" alt="✓" class="checklist-icon">
+                    <span>Deixe apenas a página do teste de<br>velocidade aberta.</span>
+                </div>
+                
+                <!-- SALTA LINHA -->
+                <br>
+                
+                <!-- TEXTO 3 - 3 LINHAS -->
+                <div class="instruction-item">
+                    <img src="images/checklist 3.svg" alt="✓" class="checklist-icon">
+                    <span>Se possível, teste a conexão com o cabo<br>LAN plugado no computador, para um teste<br>mais assertivo.</span>
+                </div>
+                
+                <!-- SALTA LINHA -->
+                <br>
+                
+                <!-- TEXTO 4 - 2 LINHAS -->
+                <div class="instruction-item">
+                    <img src="images/checklist 4.svg" alt="✓" class="checklist-icon">
+                    <span>Utilize a versão mais atualizada do seu<br>navegador web.</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- LADO DIREITO - ANIMAÇÃO + BOTÃO -->
+        <div class="speedtest-right">
+            <dotlottie-wc 
+                src="https://lottie.host/11e94f4b-dad7-4372-945b-ae0162c6bfc8/5hnvijJigS.lottie" 
+                autoplay 
+                loop>
+            </dotlottie-wc>
+            
+            <a href="https://www.speedtest.net/pt" target="_blank" class="speedtest-btn">
+                CLIQUE AQUI E TESTE AGORA
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ============================ -->
+<!-- SEÇÃO CARROSSEL 2 - 5 ITENS -->
+<!-- ============================ -->
+<section class="carousel2-section">
+    <div class="carousel2-container">
+        <div class="carousel2-track">
+            <!-- ITEM 1 - PRÊMIOS POR EXCELÊNCIA -->
+            <div class="carousel2-item">
+                <div class="carousel2-icon">
+                    <img src="images/ICONE 1.svg" alt="Prêmios" class="carousel2-img">
+                </div>
+                <div class="carousel2-content">
+                    <h3 class="carousel2-title">Prêmios por Excelência</h3>
+                    <p class="carousel2-text">Descubra alguns prêmios<br>que conquistamos ao longo do<br>tempo em algumas cidades<br>da Bahia</p>
+                </div>
+            </div>
+
+            <!-- ITEM 2 - 100% FIBRA ÓPTICA -->
+            <div class="carousel2-item">
+                <div class="carousel2-icon">
+                    <img src="images/ICONE 2.svg" alt="Fibra Óptica" class="carousel2-img">
+                </div>
+                <div class="carousel2-content">
+                    <h3 class="carousel2-title">100% Fibra Óptica até você</h3>
+                    <p class="carousel2-text">Nossa Fibra Óptica de ultima geração,<br>permite entregar planos de internet com<br>até 1 Giga de velocidade, proporcionando<br>cada vez mais qualidade nos nossos<br>serviços</p>
+                </div>
+            </div>
+
+            <!-- ITEM 3 - ALTA VELOCIDADE -->
+            <div class="carousel2-item">
+                <div class="carousel2-icon">
+                    <img src="images/ICONE 3.svg" alt="Alta Velocidade" class="carousel2-img">
+                </div>
+                <div class="carousel2-content">
+                    <h3 class="carousel2-title">Alta velocidade de<br>Download e Upload</h3>
+                    <p class="carousel2-text">Nossos planos de internet tem<br>velocidade de download e upload<br>permitindo que envie ou baixe<br>arquivos, fotos, e vídeos em geral</p>
+                </div>
+            </div>
+
+            <!-- ITEM 4 - PLANOS COMPLETOS -->
+            <div class="carousel2-item">
+                <div class="carousel2-icon">
+                    <img src="images/ICONE 4.svg" alt="Planos Completos" class="carousel2-img">
+                </div>
+                <div class="carousel2-content">
+                    <h3 class="carousel2-title">Planos completos</h3>
+                    <p class="carousel2-text">Em nossos planos estão inclusos:<br>Aplicativos de entretenimento e<br>utilidade com filmes, séries,<br>livros, revistas, segurança digital<br>e muito mais</p>
+                </div>
+            </div>
+
+            <!-- ITEM 5 - SEM TAXAS -->
+            <div class="carousel2-item">
+                <div class="carousel2-icon">
+                    <img src="images/ICONE 5.svg" alt="Sem Taxas" class="carousel2-img">
+                </div>
+                <div class="carousel2-content">
+                    <h3 class="carousel2-title">Sem taxas, sem letras miúdas</h3>
+                    <p class="carousel2-text">você assina e aproveita tudo<br>sem surpresas. Planos claros,<br>benefícios garantidos e a<br>confiança que você merece.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ -->
+<!-- SEÇÃO BOTÕES RÁPIDOS -->
+<!-- ============================ -->
+<section class="quick-buttons-section" id="secao-botoes-rapidos">
+    <div class="quick-buttons-container">
+        <div class="quick-buttons-left">
+            <div class="quick-buttons-title">
+                Resolva o que precisa<br>em apenas um clique:
+            </div>
+        </div>
+        
+        <div class="quick-buttons-right">
+            <!-- LINHA 1 -->
+            <a href="https://sac.i7.tec.br/" class="quick-button" target="_blank">
+                <img src="images/icon buttom 1.webp" alt="2ª Via do Boleto" class="button-icon">
+                <span class="button-text">2ª Via do Boleto</span>
+            </a>
+            
+               <a href="https://drive.google.com/file/d/15NVZb5ToBHpeuYM_44lVNBATVW-uqVXv/view" class="quick-button" target="_blank">
+                <img src="images/icon buttom 2.webp" alt="Contrato de SCM" class="button-icon">
+                <span class="button-text">CONTRATO<br>DE SCM</span>
+            </a>
+        
+            <!-- LINHA 2 -->
+           <a href="https://sac.i7.tec.br/" class="quick-button" target="_blank">
+                <img src="images/icon buttom 3.webp" alt="Central de Assinantes" class="button-icon">
+                <span class="button-text">Central de Assinantes</span>
+            </a>
+            
+            <a href="https://api.whatsapp.com/send?phone=5508006777007&text=Olá" class="quick-button">
+                <img src="images/icon buttom 4.webp" alt="Atendimento via WhatsApp" class="button-icon">
+                <span class="button-text">ATENDIMENTO<br>VIA WHATSAPP</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ============================ -->
+<!-- SEÇÃO ONDE ESTAMOS -->
+<!-- ============================ -->
+<section class="onde-estamos-section" id="secao-onde-estamos">
+    <!-- TÍTULO PRINCIPAL -->
+    <div class="onde-estamos-titulo-principal">ONDE ESTAMOS</div>
+    
+    <div class="onde-estamos-container">
+        <!-- LADO ESQUERDO - IMAGEM -->
+        <div class="onde-estamos-left">
+            <img src="./images/MAPA 1.webp" alt="Mapa i7 Telecom" class="onde-estamos-image">
+        </div>
+        
+        <!-- LADO DIREITO - CONTEÚDO -->
+        <div class="onde-estamos-right">
+            <div class="onde-estamos-title">Descubra onde a i7 está:</div>
+            
+            <div class="onde-estamos-text">Estamos localizados em 6<br>cidades no interior da Bahia</div>
+            
+            <div class="cidades-table">
+                <!-- CABEÇALHO DA TABELA -->
+                <div class="table-header">
+                    <div class="table-header-text"><span>Cidade</span><span>Estado</span></div>
+                </div>
+                
+                <!-- LISTA DE CIDADES -->
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Andorinha</span><span>Bahia</span></div>
+                </div>
+                
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Capim Grosso</span><span>Bahia</span></div>
+                </div>
+                
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Itiúba</span><span>Bahia</span></div>
+                </div>
+                
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Filadelfia</span><span>Bahia</span></div>
+                </div>
+                
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Monte Santo</span><span>Bahia</span></div>
+                </div>
+                
+                <div class="cidade-item">
+                    <div class="cidade-text"><span>Santaluz</span><span>Bahia</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ============================ -->
+<!-- SEÇÃO PERGUNTAS FREQUENTES -->
+<!-- ============================ -->
+<section class="faq-section" id="secao-faq">
+    <!-- TÍTULO PRINCIPAL -->
+    <div class="faq-titulo-principal">PERGUNTAS FREQUENTES</div>
+    
+    <div class="faq-container">
+        <!-- PERGUNTA 1 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                Preciso pagar pela instalação?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Não. A instalação é gratuita em todos os planos.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 2 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                Vou ficar preso a contrato de fidelidade?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Não. Você pode cancelar quando quiser, sem multas.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 3 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                O Wi-Fi da i7 funciona bem em toda a casa?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Sim. Utilizamos tecnologia Wi-Fi 6 Premium, que garante maior alcance, estabilidade e velocidade mesmo com vários dispositivos conectados.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 4 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                A i7 oferece apenas internet?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Não. Além da internet de alta velocidade, a i7 oferece:<br>
+                i7 Play TV, nossa plataforma própria de streaming com canais, filmes e séries;<br>
+                Combos com os principais streamings do mercado: GloboPlay, Max, Paramount+, Deezer e Premiere;<br>
+                Casa inteligente, com dispositivos conectados para mais praticidade no dia a dia;<br>
+                Alexa, para controlar tudo por comando de voz;<br>
+                Câmeras de segurança, para monitorar sua casa ou empresa com facilidade.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 5 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                Posso assistir ao i7 Play TV em qualquer lugar?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Sim. Você pode acessar pelo celular, computador ou Smart TV em qualquer lugar com internet.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 6 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                E se a internet parar de funcionar, vou ficar sem atendimento?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Não. Nosso suporte é rápido e humanizado, disponível pelo WhatsApp sempre que você precisar.
+            </div>
+        </div>
+        
+        <!-- PERGUNTA 7 -->
+        <div class="faq-item">
+            <div class="faq-pergunta">
+                A velocidade dos planos é suficiente para jogos e streaming ao mesmo tempo?
+                <span class="faq-icone">+</span>
+            </div>
+            <div class="faq-resposta">
+                Sim. Oferecemos planos de 500 MB, 700 MB e até 1 Giga, ideais para jogar online, assistir filmes e usar vários aparelhos ao mesmo tempo sem travar.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================ -->
+<!-- SEÇÃO RODAPÉ -->
+<!-- ============================ -->
+<footer class="footer-section" id="secao-rodape">
+    <div class="footer-container">
+        <!-- COLUNA 1 - PARA VOCÊ -->
+        <div class="footer-col">
+            <div class="footer-titulo">Para Você</div>
+            <div class="footer-links">
+                <a href="#planos" class="footer-link">Planos</a>
+                <a href="https://www.speedtest.net/pt" target="_blank" class="footer-link">Teste de Velocidade</a>
+                <a href="#secao-onde-estamos" class="footer-link">Mapa de Cobertura</a>
+                <a href="https://drive.google.com/file/d/15NVZb5ToBHpeuYM_44lVNBATVW-uqVXv/view" target="_blank" class="footer-link">Contrato de SCM</a>
+            </div>
+        </div>
+        
+        <!-- COLUNA 2 - ATENDIMENTO -->
+        <div class="footer-col">
+            <div class="footer-titulo">Atendimento</div>
+            <div class="footer-links">
+                <a href="https://sac.i7.tec.br" target="_blank" class="footer-link">2ª via de Pagamento</a>
+                <a href="#secao-faq" class="footer-link">Perguntas Frequentes</a>
+            </div>
+        </div>
+        
+        <!-- COLUNA 3 - SOBRE A i7 -->
+        <div class="footer-col">
+            <div class="footer-titulo">Sobre a i7</div>
+            <div class="footer-links">
+                <a href="Quem Somos.html" class="footer-link">Quem Somos</a>
+                <a href="Trabalhe com a gente.html" class="footer-link">Trabalhe com a Gente</a>
+                <a href="Política de Privacidade.html" class="footer-link">Política de Privacidade</a>
+                <a href="https://g.page/r/CeKNK22WtZXaEAE/review" class="footer-link">Pesquisa de Satisfação</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER COPYRIGHT -->
+    <div style="text-align: center; padding: 20px; font-size: 16px; background: transparent; color: #fff; max-width: 1200px; margin: 0 auto; position: relative; z-index: 1;">
+        <p>&copy; 2025 i7 Telecom. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <!-- BOTÃO WHATSAPP FIXO -->
+    <a href="https://wa.me/5508006777007" class="btn-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Script de correção para Safari -->
+    <script>
+        // Correção específica para Safari
+        function fixSafariBackground() {
+            const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+            
+            if (isSafari) {
+                // Forçar redimensionamento para acionar repaint
+                setTimeout(function() {
+                    document.body.style.height = 'auto';
+                    document.body.style.minHeight = '100vh';
+                    document.documentElement.style.height = 'auto';
+                    document.documentElement.style.minHeight = '100vh';
+                    
+                    // Adicionar um evento de redimensionamento para forçar repaint
+                    window.dispatchEvent(new Event('resize'));
+                }, 100);
+                
+                // Ajustar periodicamente para garantir que o fundo permaneça
+                setInterval(function() {
+                    document.body.style.backgroundImage = 'linear-gradient(135deg, #03004F, #002CBF)';
+                    document.querySelector('.bg-overlay').style.backgroundImage = 'linear-gradient(135deg, #03004F, #002CBF)';
+                }, 1000);
+            }
+        }
+        
+        // Executar quando a página carregar
+        window.addEventListener('load', function() {
+            fixSafariBackground();
+        });
+    </script>
+    
+    <!-- Script para controlar o accordion -->
+    <script>
+        // JavaScript para controlar o accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const pergunta = item.querySelector('.faq-pergunta');
+                
+                pergunta.addEventListener('click', () => {
+                    // Fecha todos os itens
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('ativo');
+                        }
+                    });
+                    
+                    // Abre/fecha o item clicado
+                    item.classList.toggle('ativo');
+                });
+            });
+        });
+    </script>
+    
+    <!-- Script do Player Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js" type="module"></script>
+    
+    <!-- Script para corrigir carrossel mobile -->
+    <script>
+    // ✅ CORREÇÃO DO CARROSSEL MOBILE
+    document.addEventListener('DOMContentLoaded', function() {
+        // Configurar carrossel para mobile
+        function setupCarouselMobile() {
+            const track = document.querySelector('.carousel2-track');
+            if (!track) return;
+            
+            // Clonar itens para efeito infinito
+            const items = track.innerHTML;
+            track.innerHTML = items + items;
+            
+            // Configurar animação baseada no dispositivo
+            if (window.innerWidth <= 768) {
+                // Mobile: animação mais lenta
+                track.style.animation = 'carousel2-scroll-mobile 60s linear infinite';
+                track.style.animationPlayState = 'running';
+                
+                // Pausar no toque
+                track.addEventListener('touchstart', function() {
+                    track.style.animationPlayState = 'paused';
+                });
+                
+                track.addEventListener('touchend', function() {
+                    setTimeout(() => {
+                        track.style.animationPlayState = 'running';
+                    }, 1000);
+                });
+            } else {
+                // Desktop: velocidade normal
+                track.style.animation = 'carousel2-scroll 40s linear infinite';
+                track.style.animationPlayState = 'running';
+            }
+            
+            // Resetar animação quando completar
+            track.addEventListener('animationiteration', function() {
+                // Suavizar o reset
+                if (window.innerWidth <= 768) {
+                    track.style.transition = 'none';
+                    track.style.transform = 'translateX(0)';
+                    
+                    setTimeout(() => {
+                        track.style.transition = '';
+                    }, 10);
+                }
+            });
+        }
+        
+        // Inicializar carrossel
+        setupCarouselMobile();
+        
+        // Reconfigurar ao redimensionar
+        window.addEventListener('resize', function() {
+            setupCarouselMobile();
+        });
+        
+        // ✅ SOLUÇÃO FINAL - BLOQUEIO TOTAL ANTES DO SWIPER
+        const hash = window.location.hash;
+        
+        if (hash && window.innerWidth <= 768) {
+            // BLOQUEIA TUDO ANTES MESMO DO SWIPER CARREGAR
+            window.scrollTo = function() {};
+            window.scroll = function() {};
+            Element.prototype.scrollIntoView = function() {};
+            
+            // Quando a página terminar de carregar
+            window.addEventListener('load', function() {
+                // DESTRÓI o Swiper se existir
+                if (typeof Swiper !== 'undefined') {
+                    document.querySelectorAll('.swiper').forEach(swiper => {
+                        if (swiper.swiper) {
+                            swiper.swiper.destroy(true, true);
+                        }
+                    });
+                }
+                
+                // Scroll MANUAL para a seção
+                setTimeout(function() {
+                    const section = document.querySelector(hash);
+                    if (section) {
+                        const targetPosition = section.offsetTop - 80;
+                        document.documentElement.scrollTop = targetPosition;
+                        document.body.scrollTop = targetPosition;
+                    }
+                }, 100);
+            });
+        }
+    });
+    </script>
+</body>
+</html>
