@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papo Leve com Dr. William Campinho e Guto Galamba</title>
+    
+    <!-- Meta tags para evitar cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="Mon, 06 Jan 2025 00:00:00 GMT">
+    
+    <link rel="stylesheet" href="style.css?v=20250106-3">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div></div>
+                <nav class="nav" id="nav">
+                    <a href="#home" onclick="showSection('home'); return false;" class="nav-link active">Início</a>
+                    <a href="#episodes" onclick="showSection('episodes'); return false;" class="nav-link">Episódios</a>
+                    <a href="#about" onclick="showSection('about'); return false;" class="nav-link">Sobre</a>
+                </nav>
+                <button class="menu-toggle" id="menuToggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="logo-desktop">
+                            <img src="images/MARCA-2.png" alt="Papo Leve">
+                        </div>
+                        
+                        <div class="hero-buttons">
+                            <button class="btn-hero btn-hero-primary" onclick="showSection('episodes')">
+                                <i data-lucide="play-circle" class="icon"></i>
+                                Ver Episódios
+                            </button>
+                            <a href="https://www.instagram.com/drwilliamcampinho/" target="_blank" class="btn-hero btn-hero-secondary">
+                                <i data-lucide="instagram" class="icon"></i>
+                                Seguir no Instagram
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="images/FOTO HEADLINE 2.png" alt="Dr. William Campinho" class="hero-image-plain">
+                        <div class="logo-mobile">
+                            <img src="images/MARCA-2.png" alt="Papo Leve">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="container">
+                <h2>Por que Escutar o Papo Leve?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i data-lucide="heart" class="feature-icon"></i>
+                        <h3>Médico Especialista</h3>
+                        <p>Dr. William é médico com mais de 15 anos de experiência em emagrecimento saudável.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-lucide="users" class="feature-icon"></i>
+                        <h3>+7 Mil Vidas Transformadas</h3>
+                        <p>Resultados comprovados com método científico e acompanhamento humanizado.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-lucide="book-open" class="feature-icon"></i>
+                        <h3>Sem Efeito Sanfona</h3>
+                        <p>Metodologia focada em resultados duradouros e manutenção do peso ideal.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i data-lucide="award" class="feature-icon"></i>
+                        <h3>Abordagem Completa</h3>
+                        <p>Cuida do físico, mental e emocional para uma transformação integral.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Episodes -->
+        <div class="episodes-preview">
+            <div class="container">
+                <h2>Episódios Recentes</h2>
+                <div class="episodes-grid">
+                    <div class="episode-card" onclick="playEpisode(1)">
+                        <div class="episode-image">
+                            <img src="images/thumbnail1.png" alt="Papo Leve">
+                            <div class="play-overlay">
+                                <i data-lucide="play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="episode-content">
+                            <div class="episode-date">08 de Novembro, 2025</div>
+                            <h3>Papo Leve com Dr. William Campinho e Guto Galamba</h3>
+                            <p>Um espaço para conversar sobre saúde, emagrecimento e bem-estar de forma leve, acessível e transformadora.</p>
+                            <span class="watch-link">
+                                <i data-lucide="play-circle" class="icon"></i>
+                                Assistir
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="episode-card" onclick="playEpisode(2)">
+                        <div class="episode-image">
+                            <img src="images/thumbnailvereador1.png" alt="Papo Leve com Dr. William Campinho e o Vereador Marcos Lima">
+                            <div class="play-overlay">
+                                <i data-lucide="play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="episode-content">
+                            <div class="episode-date">15 de Novembro, 2025</div>
+                            <h3>Papo Leve com Dr. William Campinho e o Vereador Marcos Lima</h3>
+                            <p>Alerta sobre a venda irregular e falsificação do medicamento Monjaro (Tizepartida).</p>
+                            <span class="watch-link">
+                                <i data-lucide="play-circle" class="icon"></i>
+                                Assistir
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="episode-card" onclick="playEpisode(3)">
+                        <div class="episode-image">
+                            <img src="images/thumbnail3.png" alt="Papo Leve com Dr. William Campinho - Direito à Cirurgia Reparadora">
+                            <div class="play-overlay">
+                                <i data-lucide="play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="episode-content">
+                            <div class="episode-date">22 de Novembro, 2025</div>
+                            <h3>Papo Leve com Dr. William Campinho - Direito à Cirurgia Reparadora</h3>
+                            <p>Entenda por que a cirurgia reparadora é parte essencial do tratamento contra a obesidade e um direito garantido por lei quando há indicação médica.</p>
+                            <span class="watch-link">
+                                <i data-lucide="play-circle" class="icon"></i>
+                                Assistir
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="episode-card coming-soon">
+                        <div class="episode-image">
+                            <img src="images/thumbnail-coming-soon.jpg" alt="Em breve">
+                            <div class="coming-soon-overlay">
+                                <span>EM BREVE</span>
+                            </div>
+                        </div>
+                        <div class="episode-content">
+                            <div class="episode-date">Em breve</div>
+                            <h3>Novo Episódio</h3>
+                            <p>Conteúdo exclusivo em produção.</p>
+                            <span class="watch-link disabled">
+                                <i data-lucide="play-circle" class="icon"></i>
+                                Em breve
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <button class="btn btn-primary" onclick="showSection('episodes')">
+                        Ver Todos os Episódios
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Articles -->
+        <div class="articles-preview">
+            <div class="container">
+                <h2>Artigos</h2>
+                <p class="section-subtitle">Baseados em evidências científicas e experiência clínica</p>
+                <div class="articles-grid">
+                    <div class="article-card-home" onclick="openArticleFromHome(1)">
+                        <div class="article-image-home">
+                            <img src="images/capaartigo.png" alt="Obesidade não é o problema. É a solução.">
+                        </div>
+                        <div class="article-content-home">
+                            <div class="article-date-home">3 de Novembro, 2025</div>
+                            <h3>Obesidade não é o problema. É a solução.</h3>
+                            <p>Entenda por que a obesidade pode ser uma solução inconsciente para conflitos profundos e como transformar sua relação com a comida.</p>
+                            <button class="read-more-home">
+                                Ler Mais <i data-lucide="arrow-right" class="icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="article-card-home" onclick="openArticleFromHome(2)">
+                        <div class="article-image-home">
+                            <img src="images/capaartigo2vereadorpng.png" alt="Tudo começa pela sua voz, e a Câmara Municipal existe para garantir que ela faça a diferença">
+                        </div>
+                        <div class="article-content-home">
+                            <div class="article-date-home">10 de Novembro, 2025</div>
+                            <h3>Tudo começa pela sua voz, e a Câmara Municipal existe para garantir que ela faça a diferença</h3>
+                            <p>Alerta sobre a venda irregular de medicamentos e o papel da Câmara Municipal na proteção da saúde pública.</p>
+                            <button class="read-more-home">
+                                Ler Mais <i data-lucide="arrow-right" class="icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-card-home" onclick="openArticleFromHome(3)">
+                        <div class="article-image-home">
+                            <img src="images/capaartigo3.png" alt="O direito a cirurgia reparadora como parte do tratamento contra a obesidade">
+                        </div>
+                        <div class="article-content-home">
+                            <div class="article-date-home">22 de Novembro, 2025</div>
+                            <h3>O direito a cirurgia reparadora como parte do tratamento contra a obesidade</h3>
+                            <p>Entenda por que a cirurgia reparadora é parte essencial do tratamento contra a obesidade e um direito garantido por lei quando há indicação médica.</p>
+                            <button class="read-more-home">
+                                Ler Mais <i data-lucide="arrow-right" class="icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-card-home coming-soon">
+                        <div class="article-image-home">
+                            <img src="images/thumbnail-coming-soon.jpg" alt="Em breve">
+                            <div class="coming-soon-overlay">
+                                <span>EM BREVE</span>
+                            </div>
+                        </div>
+                        <div class="article-content-home">
+                            <div class="article-date-home">Em breve</div>
+                            <h3>Novo Artigo</h3>
+                            <p>Conteúdo exclusivo em produção.</p>
+                            <button class="read-more-home disabled">
+                                Ler Mais <i data-lucide="arrow-right" class="icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta">
+            <div class="container">
+                <h2>Pronto para Transformar sua Vida?</h2>
+                <p>Siga nas redes sociais para mais conteúdo sobre emagrecimento e saúde integral</p>
+                <a href="https://www.instagram.com/drwilliamcampinho/" target="_blank" class="btn btn-white">
+                    <i data-lucide="instagram" class="icon"></i>
+                    Seguir no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodes" class="section">
+        <div class="section-hero">
+            <div class="container">
+                <h1>Episódios do Papo Leve</h1>
+                <p>Conteúdo exclusivo sobre emagrecimento, saúde integral e qualidade de vida</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Todos os Episódios</h2>
+            <div class="episodes-grid-full" id="episodesList"></div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="section-hero">
+            <div class="container">
+                <h1>Galeria de Vídeos</h1>
+                <p>Assista aos melhores momentos sobre emagrecimento e saúde integral</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Conteúdo Exclusivo</h2>
+            <div class="gallery-grid" id="galleryList"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-hero">
+            <div class="container">
+                <h1>Sobre Dr. William Campinho</h1>
+                <p>Médico especialista em emagrecimento sem efeito sanfona</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="about-content">
+                <div class="about-grid">
+                    <div>
+                        <img src="images/FOTO-18.jpg" alt="Dr. William Campinho" class="about-image">
+                    </div>
+                    <div>
+                        <h2>Dr. William Campinho</h2>
+                        <p><strong>Médico</strong> com mais de 15 anos de experiência dedicados ao emagrecimento saudável e duradouro. Formado em Medicina com especialização em emagrecimento e saúde integral.</p>
+                        <p>Como <strong>pesquisador e palestrante</strong>, desenvolveu metodologias próprias que já transformaram mais de <strong>7 mil vidas</strong>, focando sempre em resultados sem efeito sanfona.</p>
+                        <p>Através do programa "Papo Leve", leva conhecimento científico de forma acessível, mostrando que é possível emagrecer com saúde, sem dietas restritivas ou sofrimento.</p>
+                        <p>Sua missão é empoderar as pessoas com conhecimento médico, proporcionando não apenas a perda de peso, mas uma transformação completa no estilo de vida.</p>
+                        
+                        <div class="credentials">
+                            <h3>Credenciais Profissionais:</h3>
+                            <ul>
+                                <li>Médico formado com registro no CRM</li>
+                                <li>+15 anos de experiência em emagrecimento</li>
+                                <li>+7.000 vidas transformadas</li>
+                                <li>Palestrante e pesquisador científico</li>
+                                <li>Especialista em emagrecimento sem efeito sanfona</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Valores -->
+                <div class="values-section">
+                    <h2>Pilares da Metodologia</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <i data-lucide="shield" class="value-icon"></i>
+                            <h3>Sem Efeito Sanfona</h3>
+                            <p>Metodologia focada em resultados duradouros e manutenção do peso de forma sustentável.</p>
+                        </div>
+                        <div class="value-card">
+                            <i data-lucide="brain" class="value-icon"></i>
+                            <h3>Abordagem Científica</h3>
+                            <p>Protocolos baseados em evidências científicas e mais de 15 anos de experiência clínica.</p>
+                        </div>
+                        <div class="value-card">
+                            <i data-lucide="heart" class="value-icon"></i>
+                            <h3>Visão Integral</h3>
+                            <p>Cuida do físico, mental e emocional para uma transformação completa e duradoura.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Background Section -->
+                <div class="background-section">
+                    <h2>Trajetória Médica</h2>
+                    <div class="background-content">
+                        <p>Formado em Medicina, Dr. William Campinho dedicou sua carreira ao estudo do emagrecimento saudável e duradouro. Com mais de 15 anos de atuação, desenvolveu expertise única em ajudar pacientes a emagrecerem sem o temido efeito sanfona.</p>
+                        <p>Sua abordagem combina conhecimento médico científico com compreensão profunda dos aspectos emocionais e comportamentais envolvidos no processo de emagrecimento.</p>
+                        <p>Como pesquisador, constantemente atualiza seus métodos baseando-se nas mais recentes evidências científicas. Como palestrante, compartilha esse conhecimento transformador, já tendo impactado positivamente mais de 7 mil vidas.</p>
+                        <p>O programa "Papo Leve" é a extensão natural desse trabalho - um espaço onde a ciência do emagrecimento encontra a humanização do cuidado.</p>
+                    </div>
+                </div>
+
+                <!-- TV Band Section -->
+                <div class="tv-band-section">
+                    <h2>Transmitido pela TV Band</h2>
+                    <p>"Papo Leve com Dr. William Campinho" leva conhecimento médico sobre emagrecimento para milhões de espectadores em todo o Brasil.</p>
+                    <p>Todos os domingos, com conteúdo exclusivo sobre saúde integral e qualidade de vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. William Campinho</h3>
+                    <p>Médico especialista em emagrecimento sem efeito sanfona. Transformando vidas há mais de 15 anos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <a href="#home" onclick="showSection('home'); return false;">Início</a>
+                    <a href="#episodes" onclick="showSection('episodes'); return false;">Episódios</a>
+                    <a href="#about" onclick="showSection('about'); return false;">Sobre</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/drwilliamcampinho/" target="_blank" title="Instagram">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100093212712427" target="_blank" title="Facebook">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@papolevedrwilliam" target="_blank" title="YouTube">
+                            <i data-lucide="youtube"></i>
+                        </a>
+                    </div>
+                    <p class="social-text">Siga para conteúdo diário sobre emagrecimento</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. William Campinho. Todos os direitos reservados.</p>
+                <p>CRM: 22.567 | SP 248.139 - Médico especialista em emagrecimento</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal"></div>
+
+    <script src="script.js?v=20250106-3"></script>
+    
+    <script>
+        window.addEventListener('pageshow', function(event) {
+            if (event.persisted) {
+                window.location.reload();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
