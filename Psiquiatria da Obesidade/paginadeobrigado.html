@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado pela Inscrição | Psiquiatria da Obesidade</title>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NV23CH99');</script>
+    <!-- End Google Tag Manager -->
+    
+    <link rel="stylesheet" href="style.css?version=9">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV23CH99"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Página de Obrigado -->
+    <section class="thank-you-section">
+        <div class="container">
+            <div class="thank-you-card">
+                <!-- Título com emoji verde -->
+                <h1>✅ INSCRIÇÃO CONFIRMADA</h1>
+                <p class="thank-you-subtitle">Aula Gratuita para Médicos</p>
+                
+                <!-- BARRA ANIMADA -->
+                <div class="thank-you-life-container">
+                    <div class="thank-you-life-bar">
+                        <div class="thank-you-life-fill"></div>
+                    </div>
+                    <p class="thank-you-life-text">80% da sua inscrição confirmada</p>
+                </div>
+                
+                <!-- Informações da aula -->
+                <div class="class-info">
+                    <h2>Psiquiatria da Obesidade</h2>
+                    <p class="class-date">15 de janeiro | 20h | Ao vivo no Zoom</p>
+                </div>
+                
+                <!-- PRIMEIRO BOTÃO DO WHATSAPP -->
+                <div class="whatsapp-container">
+                    <div class="thank-you-cta-button-container">
+                        <a href="https://chat.whatsapp.com/JFHV3htqEtnLKdZznpuhXP" target="_blank" class="thank-you-cta-button large">
+                            <i class="fab fa-whatsapp"></i> Entrar no Grupo VIP do WhatsApp
+                        </a>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <div class="warning-content">
+                            <h3>⚠️ ACESSO À AULA</h3>
+                            <p>O link do Zoom será enviado apenas no grupo do WhatsApp.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- SEGUNDO BOTÃO DO WHATSAPP -->
+                    <div class="thank-you-cta-button-container">
+                        <a href="https://chat.whatsapp.com/JFHV3htqEtnLKdZznpuhXP" target="_blank" class="thank-you-cta-button">
+                            <i class="fab fa-whatsapp"></i> Entrar no Grupo WhatsApp
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- FORMULÁRIO DE INFORMAÇÕES (AGORA ABAIXO DO ÚLTIMO BOTÃO) -->
+                <div class="info-form-container">
+                    <div class="form-header">
+                        <h3><i class="fas fa-info-circle"></i> Ajude-nos a direcionar melhor os conteúdos</h3>
+                        <p class="form-subtitle">
+                            Se desejar, preencha rapidamente as informações abaixo.<br>
+                            Esses dados nos ajudam a organizar as discussões clínicas e personalizar os conteúdos da aula.<br>
+                            <em>(Tempo médio: 1 minuto)</em>
+                        </p>
+                    </div>
+                    
+                    <form id="doctorInfoForm" class="doctor-info-form">
+                        <div class="form-group">
+                            <label for="nome"><i class="fas fa-user"></i> Nome:</label>
+                            <input type="text" id="nome" name="nome" required 
+                                   placeholder="Seu nome completo" 
+                                   autocomplete="name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp:</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" required 
+                                   placeholder="(99) 99999-9999" 
+                                   autocomplete="tel">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> E-mail:</label>
+                            <input type="email" id="email" name="email" required 
+                                   placeholder="seu@email.com" 
+                                   autocomplete="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="crm"><i class="fas fa-id-card"></i> CRM:</label>
+                            <input type="text" id="crm" name="crm" required 
+                                   placeholder="CRM + Estado (ex: 12345/SP)" 
+                                   autocomplete="off">
+                        </div>
+                        
+                        <!-- CHECKBOX REMOVIDO -->
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Enviar informações
+                            </button>
+                            <button type="button" class="skip-btn" id="skipBtn">
+                                Pular esta etapa
+                            </button>
+                        </div>
+                        
+                        <div class="form-loading" id="formLoading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Enviando informações...
+                        </div>
+                        
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <i class="fas fa-check-circle"></i> Informações enviadas com sucesso!
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- BOTÃO FINAL ALTERNATIVO -->
+                <div class="thank-you-cta-button-container final-button">
+                    <a href="https://chat.whatsapp.com/JFHV3htqEtnLKdZznpuhXP" target="_blank" class="thank-you-cta-button secondary">
+                        <i class="fab fa-whatsapp"></i> Acessar Grupo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js?version=9"></script>
+</body>
+</html>
