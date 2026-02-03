@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolanda Concept</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero-section">
+        <div class="bg-slider">
+            <div class="slide active"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+        </div>
+
+        <header class="navbar-fixed">
+            <img src="images/MARCA.webp" class="logo-desktop" alt="Logo">
+            
+            <nav class="nav-desktop-container">
+                <div class="glass-pill-header">
+                    <div class="nav-links-desktop">
+                        <a href="#">Home</a>
+                        <a href="#">Serviços</a>
+                        <a href="#">Sobre</a>
+                        <a href="#">Quem somos</a>
+                    </div>
+                    <div class="circle-separator"></div>
+                    <div class="locations-desktop">
+                        <a href="https://wa.me/5575999999999" class="loc-btn">Feira de Santana</a>
+                        <a href="https://wa.me/5575888888888" class="loc-btn">Itaberaba</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="menu-sandwich" id="btnMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <div class="mobile-menu-overlay" id="menuOverlay">
+            <div class="mobile-links">
+                <a href="#">Home</a>
+                <a href="#">Serviços</a>
+                <a href="#">Sobre</a>
+                <a href="#">Quem somos</a>
+                <hr class="mobile-divider">
+                <a href="https://wa.me/5575999999999" class="loc-mobile">Feira de Santana</a>
+                <a href="https://wa.me/5575888888888" class="loc-mobile">Itaberaba</a>
+            </div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">ONDE SUA<br>IDENTIDADE GANHA FORMA.</h1>
+                <p class="hero-subtitle">TRANSFORMAÇÕES EXCLUSIVAS E RITUAIS DE CUIDADO QUE REVELAM A<br>SUA VERSÃO MAIS AUTÊNTICA E SOFISTICADA.</p>
+                
+                <div class="btn-wrapper">
+                    <a href="#" class="btn-agende animated-btn">
+                        <div class="btn-layer-blur"></div>
+                        <div class="btn-layer-solid">
+                            <span class="btn-text">Agende sua experiência</span>
+                        </div>
+                        <div class="btn-icon-box">
+                            <img src="images/Black.svg" alt="seta">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="marquee">
+            <div class="marquee-inner">
+                <span>YOLANDA CONCEPT YOLANDA CONCEPT YOLANDA CONCEPT</span>
+                <span>YOLANDA CONCEPT YOLANDA CONCEPT YOLANDA CONCEPT</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+<section class="concept-section">
+    <div class="concept-container">
+        <h2 class="concept-title">Muito além de um salão.<br>Um conceito de cuidado.</h2>
+        <p class="concept-description">
+            Acreditamos que a beleza não segue padrões, ela os cria.<br class="desktop-only">
+            No Yolanda Concept, cada atendimento é um projeto único,<br class="desktop-only">
+            onde a técnica de ponta encontra a sensibilidade para entender<br class="desktop-only">
+            o que você deseja projetar ao mundo.
+        </p>
+    </div>
+
+    <div class="carousel-ticker">
+        <div class="ticker-track">
+            <img src="images/carrosseldsk.webp" alt="Yolanda Concept" class="ticker-img">
+            <img src="images/carrosseldsk.webp" alt="Yolanda Concept" class="ticker-img">
+        </div>
+    </div>
+    
+    <div class="section-divider"></div>
+</section>
+<section class="extensions-section">
+    <div class="extensions-container">
+        
+        <div class="extensions-content">
+            <h2 class="extensions-title">A arte das<br>extensões invisíveis.</h2>
+            <p class="extensions-text">
+                Somos especialistas em alongamentos que entregam volume, comprimento e uma naturalidade impressionante. Nossa técnica de Mega Hair prioriza a saúde do seu fio natural, proporcionando um balanço perfeito e a confiança de um cabelo impecável.
+            </p>
+        </div>
+
+        <div class="extensions-visual">
+            <div class="star-wrapper star-top">
+                <video autoplay muted loop playsinline>
+                    <source src="images/estrela.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="image-main-wrapper">
+                <img src="images/fotoseção3.webp" alt="Extensões Invisíveis" class="main-photo">
+            </div>
+
+            <div class="star-wrapper star-bottom">
+                <video autoplay muted loop playsinline>
+                    <source src="images/estrela.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="thick-section-divider"></div>
+
+<section class="transformation-section">
+    <div class="svg-bg-layer">
+        <svg viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid slice" class="bg-line-svg">
+            <path class="drawing-path" d="M-50,300 C150,300 350,100 500,250 C650,400 850,200 1050,200" 
+                  fill="none" stroke="#D9D9D9" stroke-width="1.5" />
+        </svg>
+    </div>
+
+    <div class="transformation-container">
+        <div class="slider-wrapper">
+            <div class="comparison-box">
+                <div class="img-wrap after-img">
+                    <img src="images/depois.webp" alt="Depois">
+                </div>
+                <div class="img-wrap before-img" id="js-before-box">
+                    <img src="images/antes.webp" alt="Antes">
+                </div>
+
+                <input type="range" min="0" max="100" value="50" class="range-input" id="js-slider-range">
+
+                <div class="visual-divider" id="js-divider-line">
+                    <div class="handle-circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-wrapper">
+            <h2 class="title-text">A Arte da Mudança.</h2>
+            <p class="desc-text">
+                Deslize para descobrir o impacto de um cuidado verdadeiramente dedicado e a precisão técnica do Yolanda Concept.
+            </p>
+        </div>
+    </div>
+</section>
+<div class="thick-section-divider"></div>
+
+<section class="lighting-section" id="section-5">
+    <div class="sticky-wrapper">
+        
+        <div class="svg-bg-layer">
+            <svg viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid slice" class="bg-line-svg">
+                <path class="drawing-path-reverse" d="M-50,300 C150,300 350,100 500,250 C650,400 850,200 1050,200" 
+                      fill="none" stroke="#D9D9D9" stroke-width="1.5" />
+            </svg>
+        </div>
+
+        <div class="lighting-content">
+            <div class="lighting-text">
+                <h2 class="lighting-title">ILUMINAÇÃO QUE VALORIZA SUA IDENTIDADE.</h2>
+                <p class="lighting-desc">
+                    Criamos nuances personalizadas através de técnicas avançadas de mechas. Do loiro radiante ao morena iluminada, cada tom é desenvolvido para harmonizar com seu rosto e estilo de vida, sempre com foco na integridade capilar.
+                </p>
+            </div>
+
+            <div class="image-stack">
+                <div class="frame">
+                    <img src="images/1l.webp" class="l-img active" id="pic-1">
+                    <img src="images/2l.webp" class="l-img" id="pic-2">
+                    <img src="images/3l.webp" class="l-img" id="pic-3">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="ecossistema" class="eco-section">
+    <div class="sticky-wrapper">
+        <h2 class="eco-title">O ECOSSISTEMA<br>DE BELEZA</h2>
+        
+        <div class="svg-bg-layer">
+            <svg viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid slice" class="bg-line-svg">
+                <path class="drawing-path-eco" d="M-50,300 C150,300 350,100 500,250 C650,400 850,200 1050,200" 
+                      fill="none" stroke="#A3A3A3" stroke-width="1.5" />
+            </svg>
+        </div>
+
+        <div class="eco-container">
+            <div class="eco-card card-1">
+                <div class="card-glass">
+                    <img src="images/eco1.webp" class="card-img">
+                    <div class="card-content">
+                        <h3>MAKEUP &<br>PENTEADOS:</h3>
+                        <p>Produções de alto nível para eventos e ocasiões especiais.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="eco-card card-2">
+                <div class="card-glass">
+                    <img src="images/eco2.webp" class="card-img">
+                    <div class="card-content">
+                        <h3>NAILS | MANICURE<br>PEDICURE:</h3>
+                        <p>Estética avançada das unhas com acabamento de excelência.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="eco-card card-3">
+                <div class="card-glass">
+                    <img src="images/eco3.webp" class="card-img">
+                    <div class="card-content">
+                        <h3>DESIGN DE<br>SOBRANCELHAS:</h3>
+                        <p>O equilíbrio e a moldura do olhar através da precisão técnica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="spa-yc" class="spa-section">
+    <div class="spa-divider"></div>
+    
+
+    <div class="spa-container">
+        <div class="spa-content">
+            <h2 class="spa-title">Um santuário para<br/>seus fios.</h2>
+            <p class="spa-text">
+                O Spa YC é o nosso protocolo exclusivo<br class="desktop-only"/>de tratamento.<br/><br/>
+                Um momento de pausa para que seu<br class="desktop-only"/>cabelo receba o que há de mais moderno<br class="desktop-only"/>
+                em nutrição e reconstrução, devolvendo<br class="desktop-only"/>o brilho e a vitalidade que o<br class="desktop-only"/>dia a dia retira.
+            </p>
+        </div>
+
+        <div class="spa-visual">
+            <div class="svg-bg-layer">
+                <svg viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice" class="bg-line-svg">
+                    <path class="drawing-path-spa" d="M0,400 C150,450 350,200 500,300" fill="none" stroke="#D9D9D9" stroke-width="1.5" />
+                </svg>
+            </div>
+            <div class="spa-image-wrapper">
+                <img src="images/st.webp" alt="Spa YC" class="spa-img reveal-img">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="noivas" class="noiva-section-v8">
+    <div class="noiva-line-layer">
+        <svg viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice">
+            <path class="drawing-path-v8" d="M-50,350 C150,550 450,150 650,400 C850,650 1050,350 1100,350" 
+                  fill="none" stroke="#D1D1D1" stroke-width="1.5" />
+        </svg>
+    </div>
+
+    <div class="noiva-container-v8">
+        <div class="noiva-visual-v8">
+            <img src="images/noiva.webp" alt="Noivas YC" class="noiva-img-raw">
+        </div>
+
+        <div class="noiva-content-v8">
+            <h2 class="noiva-title-v8">Onde o seu<br/>sonho começa.</h2>
+            <p class="noiva-text-v8">
+                Um espaço dedicado exclusivamente à<br class="desktop-only"/>mulher que vive o seu dia mais inesquecível.<br/><br/>
+                Nossa equipe de especialistas em Noivas<br class="desktop-only"/>cuida de cada detalhe, da maquiagem ao<br class="desktop-only"/>penteado, garantindo uma experiência<br class="desktop-only"/>serena e um resultado deslumbrante.
+            </p>
+        </div>
+    </div>
+</section>
+<div class="divisor-s8-s9"></div>
+
+<section id="unidades" class="section-v9">
+    <div class="container-v9">
+        <h2 class="title-main-v9">Onde nos encontrar:</h2>
+        
+        <div class="wrapper-cards-v9">
+            <div class="card-unidade-v9 js-reveal-v9">
+                <div class="glass-bg-v9"></div>
+                <div class="card-content-v9">
+                    <img src="images/feira.webp" alt="Unidade Feira de Santana" class="img-unidade-v9">
+                    <div class="info-unidade-v9">
+                        <h3>Unidade Feira de<br/>Santana - BA:</h3>
+                        <p>Nossa sede principal, um ambiente amplo e sofisticado para grandes transformações.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-unidade-v9 js-reveal-v9">
+                <div class="glass-bg-v9"></div>
+                <div class="card-content-v9">
+                    <img src="images/itaberaba.webp" alt="Unidade Itaberaba" class="img-unidade-v9">
+                    <div class="info-unidade-v9">
+                        <h3>Unidade Itaberaba - BA:</h3>
+                        <p>Levamos o padrão de qualidade e a técnica Yolanda Concept para o coração de Itaberaba.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
